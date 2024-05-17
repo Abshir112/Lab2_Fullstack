@@ -11,6 +11,10 @@ This project is a simple Project Assignments Management System built with React 
 - Concurrently run backend and frontend servers
 
 
+## Tech Stack
+- Frontend: React, Vite, Material-UI
+- Backend: Express, MongoDB, Mongoose
+- Development Tools: Concurrently, Axios
 
 
 
