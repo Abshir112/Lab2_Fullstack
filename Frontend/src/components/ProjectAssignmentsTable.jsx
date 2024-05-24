@@ -23,6 +23,9 @@ const ProjectAssignmentsTable = () => {
 
   useEffect(() => {
     fetchAssignments();
+    const intervalId = setInterval(fetchAssignments, 5000); // Fetch assignments every 5 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
 
   const fetchAssignments = async () => {
