@@ -73,7 +73,7 @@ const ProjectAssignmentsTable = () => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom align="center">
-        Latest Project Assignments
+        Latest 5 Project Assignments
       </Typography>
       <TableContainer component={Paper}>
         <Table>
